@@ -1,0 +1,6 @@
+/data/
+/data-test/
+/admin-password.txt
+examples/fixture.json
+*.sqlite
+*.sqlite-*

@@ -1,0 +1,7 @@
+example.com {
+    root * /srv/seat-admin-lite
+    @blocked path /data/*
+    respond @blocked 404
+    php_fastcgi 127.0.0.1:9000
+    file_server
+}
